@@ -18,7 +18,9 @@
 ### 但是还是没用
 ### Deepseek便让我继续把[c]改成[custom.c],并在[format]中把$c\改为$custom.cpp
 ### 发现出现了环境提示，但是多了.cpp 
-## 于是我便意识到是[c]出了问题，把[c]中的'c'换一个不会冲突的变量名就好了🥳。">
+## 于是我便意识到是[c]出了问题，把[c]中的'c'换一个不会冲突的变量名就好了🥳
+## 修复🔧如下：
+### 把[c]改为[custom],并把[format]中的$cpp\改为$custom\。">
 <meta property="og:title" content="Starship的cpp环境提示失效解决方案">
 <meta property="og:description" content="### 前情提示：博主在切换文件📄目录时发现在含.c,.python文件的目录中正常，而在遇到.cpp文件就失效了
 于是博主开始问deepaseek,它先让我更新Starship，但是我的Steamship版本已经是最新了
@@ -28,7 +30,9 @@
 ### 但是还是没用
 ### Deepseek便让我继续把[c]改成[custom.c],并在[format]中把$c\改为$custom.cpp
 ### 发现出现了环境提示，但是多了.cpp 
-## 于是我便意识到是[c]出了问题，把[c]中的'c'换一个不会冲突的变量名就好了🥳。">
+## 于是我便意识到是[c]出了问题，把[c]中的'c'换一个不会冲突的变量名就好了🥳
+## 修复🔧如下：
+### 把[c]改为[custom],并把[format]中的$cpp\改为$custom\。">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://rayfeilei.github.io/post/Starship-de-cpp-huan-jing-ti-shi-shi-xiao-jie-jue-fang-an.html">
 <meta property="og:image" content="https://avatars.githubusercontent.com/u/102419376?v=4&size=64">
@@ -99,7 +103,9 @@ detect_extensions = ["cpp", "hpp", "cc"]</p>
 <h3>但是还是没用</h3>
 <h3>Deepseek便让我继续把[c]改成[custom.c],并在[format]中把$c\改为$custom.cpp</h3>
 <h3>发现出现了环境提示，但是多了.cpp</h3>
-<h2>于是我便意识到是[c]出了问题，把[c]中的"c"换一个不会冲突的变量名就好了🥳</h2></div>
+<h2>于是我便意识到是[c]出了问题，把[c]中的"c"换一个不会冲突的变量名就好了🥳</h2>
+<h2>修复🔧如下：</h2>
+<h3>把[c]改为[custom],并把[format]中的$cpp\改为$custom\</h3></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>

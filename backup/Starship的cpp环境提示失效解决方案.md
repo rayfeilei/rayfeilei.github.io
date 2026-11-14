@@ -7,3 +7,5 @@
 ### Deepseek便让我继续把[c]改成[custom.c],并在[format]中把$c\改为$custom.cpp
 ### 发现出现了环境提示，但是多了.cpp 
 ## 于是我便意识到是[c]出了问题，把[c]中的"c"换一个不会冲突的变量名就好了🥳
+## 修复🔧如下：
+### 把[c]改为[custom],并把[format]中的$cpp\改为$custom\
